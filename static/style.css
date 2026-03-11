@@ -1,11 +1,27 @@
 body {
     background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     margin: 20px;
 }
 
+h1 {
+    text-align: center; 
+    text-shadow: 2px 2px 4px #aaa; 
+    letter-spacing: 2px;
+}
+
+.img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
 img {
-    border: 5px solid #333;
+    border: 5px solid #90db1e;
     border-radius: 10px;
     display: block;
     margin-left: auto;
